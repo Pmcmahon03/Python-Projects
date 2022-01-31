@@ -125,7 +125,7 @@ while play:
 
 				while not played:
 
-					col_choice = int(input('Input your column choice A,B,C :'))
+					col_choice = int(input('Input your column choice 0,1,2 :'))
 					row_choice = int(input('Input your row choice 0,1,2 : ')) 
 
 					game, played = game_board(game,current_player,row_choice,col_choice,False)
