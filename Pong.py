@@ -110,6 +110,9 @@ while True:
                 player_speed -= 7
             if event.key == pygame.K_UP:
                 player_speed += 7
+            if event.key == pygame.K_ESCAPE:
+                pygame.quit()
+                sys.exit()
 
     ball_animation()
     
